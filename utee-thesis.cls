@@ -10,9 +10,10 @@
 % version 2005/12/01 or later.
 
 \LoadClass[a4paper,12pt]{report}
-\RequirePackage{fullpage}
 \RequirePackage{setspace}
 \onehalfspacing
+
+%\RequirePackage{fullpage}
 
 %%%%%%%%%%%%          MAIN  CODE          %%%%%%%%%%%%
 
@@ -71,10 +72,10 @@
 		\vfill\vfill\vfill
 		Tartu ~ {\@thesisyear}\\
 		%\vspace{.01\textheight}
-   \end{center}
-   \setcounter{page}{1}
-   \end{titlepage}
-   \setcounter{page}{2}
+	\end{center}
+	\setcounter{page}{1}
+	\end{titlepage}
+	\setcounter{page}{2}
 }
 
 \newcommand*{\chapterstartoc}[1]
