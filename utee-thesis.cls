@@ -1,6 +1,15 @@
 %% utee-thesis.cls
 %% Copyright 2014 Morten Piibeleht
 %
+% A latex class for natural science BSc and MSc theses at at the University of
+% Tartu. It adheres to the typesetting requirements set by the Faculty of
+% Science and Technology (LOTE), available here:
+%   http://www.lote.ut.ee/et/oppetoo/loodus-tehnoloogiateaduskonna-loputoodele-esitatavad-nouded-kaitsmise-kord
+%
+% In addition to the typesetting requirements it also provides tools to easily
+% create the standard compulsory parts of the thesis (e.g. english abstract,
+% license).
+%
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either version 1.3
 % of this license or (at your option) any later version.
@@ -9,6 +18,8 @@
 % and version 1.3 or later is part of all distributions of LaTeX
 % version 2005/12/01 or later.
 
+% The class is based on the LaTeX report class. The 12pt font, A4 paper and 1.5
+% spacing are the official requirements by LOTE.
 \LoadClass[a4paper,12pt]{report}
 \RequirePackage{setspace}
 \onehalfspacing
